@@ -16,7 +16,7 @@ import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.util.StringUtils;
 
-//fail to run the except result
+//fail to run the except result 
 public class DDRMerge extends AbstractGenericUDAFResolver {
 
 	static final Log LOG = LogFactory.getLog(DDRMerge.class.getName());

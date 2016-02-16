@@ -25,7 +25,7 @@ import org.apache.hadoop.hive.serde2.typeinfo.TypeInfoUtils;
 public class GenericUDAFMaxRow extends AbstractGenericUDAFResolver {
 
 	static final Log LOG = LogFactory.getLog(GenericUDAFMaxRow.class.getName());
-
+ 
 	@Override
 	public GenericUDAFEvaluator getEvaluator(TypeInfo[] parameters) throws SemanticException {
 		// Verify that the first parameter supports comparisons.

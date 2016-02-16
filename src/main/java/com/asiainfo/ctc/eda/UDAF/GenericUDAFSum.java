@@ -20,7 +20,7 @@ import org.apache.hadoop.util.StringUtils;
 public class GenericUDAFSum extends AbstractGenericUDAFResolver {
 
 	static final Log LOG = LogFactory.getLog(GenericUDAFSum.class.getName());
-
+ 
 	@Override
 	public GenericUDAFEvaluator getEvaluator(TypeInfo[] parameters) throws SemanticException {
 		if (parameters.length != 1) {

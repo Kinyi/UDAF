@@ -17,7 +17,7 @@ import org.apache.hadoop.hive.serde2.typeinfo.PrimitiveTypeInfo;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.util.StringUtils;
-
+ 
 /**
  * UDAF--练手程序
  * 该程序是用于分组后的两列总和再求和
