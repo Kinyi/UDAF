@@ -18,7 +18,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.util.StringUtils;
 
 public class GenericUDAFSum extends AbstractGenericUDAFResolver {
-
+ 
 	static final Log LOG = LogFactory.getLog(GenericUDAFSum.class.getName());
  
 	@Override

@@ -25,7 +25,7 @@ import org.apache.hadoop.util.StringUtils;
  *		kinyi   90      89
  *		kinyi   92      90
  *		allen   70      97
- *		allen   86      88
+ *		allen   86      88 
  *		allen   99      97
  * --select name,rowsum(math) from tworowsum group by name;--
  * 		allen	537

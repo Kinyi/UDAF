@@ -21,7 +21,7 @@ import org.apache.hadoop.hive.serde2.objectinspector.StructObjectInspector;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfoUtils;
 
-
+ 
 /**
  * The maxrow() aggregate function is similar to the built-in max() function,
  * but it allows you to refer to additional columns in the maximal row.
